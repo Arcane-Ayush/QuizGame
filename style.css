@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background : #f5efe6;
+    --containerColor: white;
+    --headingColor: #e86a33; /*as well as progressBars*/
+
+    --obsidian: #3c3f40;
+    --answerBackGColor: #f8f0e5;
+    --answerBorderHover: #eadbc8;
+    --hoverBorderColor: #dac0ae;
+
+    --correctAnswerText: #28a745;
+    --incorrectanswerText:#dc3545;
+
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* the contents inside the body become center that is each and every element */
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px 0 rgba( 0 , 0 , 0 , 0.1);
+    /*Percent is relative to the parent element*/
+    width: 100%;
+    max-width: 600px; /*so that on wider screens it doesn't take more than 600px*/
+    position: relative;
+    overflow: hidden;
+}
+
+.screen{
+    display: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro-outro {
+    color: var(--headingColor);
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+/* p's CSS is defined along with result-info's  p as both share same thing */
+
+.quiz-box{
+    margin-bottom: 2rem;
+}
+
+.quiz-box .question {
+    color: var(--obsidian);
+    margin-bottom: 1.25rem;
+    font-size: 2rem;
+    /* line-height: 1.4rem; */
+}
+
+.additional-info{
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 1rem;
+    margin: 0.25rem;
+}
+
+#options-container {
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;  /*flex direction and gap applies on the children*/
+}
+
+#options-container li{
+    list-style: lower-greek;
+}
+
+.answer-btn{
+    background-color: var(--answerBackGColor);
+    color: var(--obsidian);
+    border: 2px solid var(--answerBorderHover);
+    border-radius: 0.625rem;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease; /*that is for both in and out transition*/
+}
+
+.answer-btn:hover{
+    background-color: var(--answerBorderHover);
+    border-color: var(--hoverBorderColor);
+}
+
+.answer-btn.disabled {
+    opacity: 0.5;
+}
+
+.answer-btn.correct{
+    background-color: #e6fff0;
+    border-color: #a3f0c4;
+    color: #28a745;
+    opacity: 1;
+}
+
+.answer-btn.incorrect{
+    background-color: #fff0f0;
+    /* background-color: #f34c4c; */
+    border-color: #ffbdbd;
+    color: #dc3545;
+    /* color: #350005; */
+    opacity: 1;
+}
+
+
+
+.progress-bar{
+    margin: 2px;
+    margin-top: 1.25rem;
+    height: 10px;
+    width: 100%;
+    background-color: var(--answerBackGColor);
+    border-radius: 1.2rem;
+    overflow: hidden;
+    border: 2px solid var(--answerBackGColor);
+}
+
+.progress{
+    height: 100%;
+    background-color: var(--headingColor);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+/*RESULT SCREEN*/
+.result-info {
+    background-color: var(--background);
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.result-info :first-child, .quiz-intro p{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.result-info .congratulatory{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--headingColor);
+    margin-bottom: 1.2rem;
+    /* text-transform: capitalize; */
+}
+
+button{
+    background-color: var(--headingColor);
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    font-size: 1.2rem;
+    margin: 1.2rem;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #d45b28;
+}
+
+@media screen and (max-width: 480px){
+    html{
+        font-size: 72.5%;
+    }
+}
+@media screen and (max-width: 320px){
+    html{
+        font-size: 62.5%;
+    }
+}
