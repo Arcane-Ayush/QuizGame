@@ -142,6 +142,7 @@ const quizQuestions = [
 
 let questionIndex = 0;
 let score = 0;
+// totalQuestions.textContent = quizQuestions.length;
 totalQuestions.forEach(totalNo => {
     totalNo.textContent = quizQuestions.length
 })
@@ -224,7 +225,7 @@ function answerCheck(event){
     });
 
     //do I add it in showQuestion ? I mean would need to add another if so that at last question it can first show then change screen
-    const quizDone = (questionIndex/totalQuestions.textContent)*100;
+    const quizDone = (questionIndex/quizQuestions.length)*100;
     progressDone.style.width = `${quizDone}%`;
 
     setTimeout(()=>{
