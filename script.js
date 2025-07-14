@@ -1,9 +1,14 @@
-//NOTE: for Questions --- options and correct answer should I make a JSON file or an OBJECT ? 
-
+fetch('quizzes.json')
+.then((res) => {
+    return res.json()
+})
+.then((data)=>{
 const mainElement = document.querySelector("main");
 const startScreen = document.querySelector('.quiz-intro');
 const quizScreen = document.querySelector('.quiz-question');
 const resultScreen = document.querySelector('.result-section');
+
+const selectQuiz = document.querySelector('#quiz')
 
 const currentQuestion = document.querySelector('.question')
 const currentQuestionNo = document.querySelector('#current-question');
@@ -45,107 +50,42 @@ restartBtn.addEventListener("click" , restartQuiz)
 
 // MAIN CODE
 
-const quizQuestions = [
-    {
-        "Question": "How many states of matter are commonly recognized?",
-        "answers" : [
-            {"text": "One" , "correct": false},
-            {"text": "Two" , "correct": false},
-            {"text": "Three" , "correct": false},
-            {"text": "Four" , "correct": true}
-        ]
-    },
-    {
-        "Question": "What is the SI unit of Charge",
-        "answers" : [
-            {"text": "Ampere" , "correct": false},
-            {"text": "Coulomb" , "correct": true},
-            {"text": "Faraday" , "correct": false},
-            {"text": "Ohm" , "correct": false}
-        ]
-    },
-    {
-        "Question": "Who discovered and studied the cell for the first time",
-        "answers" : [
-            {"text": "Issac Newton" , "correct": false},
-            {"text": "Blaise Pascal" , "correct": false},
-            {"text": "Robert Strain" , "correct": false},
-            {"text": "Rober Hooke" , "correct": true}
-        ]
-    },
-    {
-        "Question": "Who invented the Radio",
-        "answers" : [
-            {"text": "Guglielmo Marconi" , "correct": true},
-            {"text": "Nikola Tesla" , "correct": false},
-            {"text": "Albert Einstein" , "correct": false},
-            {"text": "James Clerk Maxwell" , "correct": false}
-        ]
-    },
-    {
-        "Question": "What is the chemical symbol for Silicon?",
-        "answers" : [
-            {"text": "S" , "correct": false},
-            {"text": "Sl" , "correct": false},
-            {"text": "Si" , "correct": true},
-            {"text": "Sc" , "correct": false}
-        ]
-    },
-    {
-        "Question": "What is the capital of France?",
-        "answers" : [
-            {"text": "London" , "correct": false},
-            {"text": "Berlin" , "correct": false},
-            {"text": "Paris" , "correct": true},
-            {"text": "Madrid" , "correct": false}
-        ]
-    },
-    {
-        "Question": "Which planet is known as the Red Planet?",
-        "answers" : [
-            {"text": "Venus" , "correct": false},
-            {"text": "Mars" , "correct": true},
-            {"text": "Jupiter" , "correct": false},
-            {"text": "Saturn" , "correct": false}
-        ]
-    },
-    {
-        "Question": "Which is the second largest ocean on the Earth?",
-        "answers" : [
-            {"text": "Indian Ocean" , "correct": false},
-            {"text": "Artic Ocean" , "correct": false},
-            {"text": "Atlantic Ocean" , "correct": true},
-            {"text": "Pacific Ocean" , "correct": false}
-        ]
-    },
-    {
-        "Question": "Which of the following is not a programming language?",
-        "answers" : [
-            {"text": "Java" , "correct": false},
-            {"text": "Pearl" , "correct": true},
-            {"text": "Rust" , "correct": false},
-            {"text": "Ruby" , "correct": false}
-        ]
-    },
-    {
-        "Question": "What is the chemical symbol for Gold?",
-        "answers" : [
-            {"text": "Go" , "correct": false},
-            {"text": "Ag" , "correct": false},
-            {"text": "Gl" , "correct": false},
-            {"text": "Au" , "correct": true}
-        ]
+const quizQuestions = data; 
+quizQuestions.forEach((quizSelect , index) => {
+    console.log(selectQuiz);
+    const selectQuizOption = document.createElement('option');
+    selectQuizOption.value = quizSelect.quizID;
+    selectQuizOption.textContent = quizSelect.title;
+    selectQuizOption.className = 'quiz-select'
+    selectQuizOption.dataset.value = index;
+    selectQuiz.appendChild(selectQuizOption);
+    if ( index === quizQuestions.length - 1) {
+        //was going to run a loop here and then assign value or attach the index value to each option somehow...
+        //NOTE: got it how- lol declaring a class then operating on it outside 
+        console.log('scrapped');
     }
-];
+    console.log(selectQuizOption);
+})
 
 //QUIZ VAR
+let quizIndex = -1;
+selectQuiz.addEventListener('change' , (e) => {
+    const selectedIndex = e.target.selectedIndex;
+    quizIndex = selectedIndex - 1;
+    console.log(quizIndex);
+})
 
+//QUIZ VAR
 let questionIndex = 0;
 let score = 0;
-// totalQuestions.textContent = quizQuestions.length;
-totalQuestions.forEach(totalNo => {
-    totalNo.textContent = quizQuestions.length
-})
+
+//otherwise negative index
+if(quizIndex >= 0){
+    totalQuestions.forEach(totalNo => {
+        totalNo.textContent = quizQuestions[quizIndex].questions.length
+        console.log(totalNo.textContent);
+    })
+}
 
 //Functions
 
@@ -155,7 +95,7 @@ function visibleDisplay(prevScreen , toBeScreen){
 }
 
 function congratulatoryMessage(){
-    let fractionCorrect = score/quizQuestions.length;
+    let fractionCorrect = score/quizQuestions[quizIndex].questions.length;
     console.log(fractionCorrect)
 
     if(fractionCorrect == 1){
@@ -176,10 +116,10 @@ function congratulatoryMessage(){
 }
 
 let showQuestion = () => {
-    currentQuestion.textContent = quizQuestions[questionIndex].Question; //showing the question
+    currentQuestion.textContent = quizQuestions[quizIndex].questions[questionIndex].Question; //showing the question
     currentQuestionNo.textContent = questionIndex + 1;
     //setting options
-    quizQuestions[questionIndex].answers.forEach((option , index) => {
+    quizQuestions[quizIndex].questions[questionIndex].answers.forEach((option , index) => {
         //NOTE: if you wish to use this piece code first comment out answerBtn declaration at top and comment out li nodes as well from the HTML file
 
         /*
@@ -197,6 +137,13 @@ let showQuestion = () => {
     })
 
     questionIndex++;
+}
+
+function removeAnswerButton(){
+    answerBtn.forEach(btn => {
+        btn.classList.remove("disabled" , "correct" , "incorrect");
+        btn.style.pointerEvents = 'auto';
+    })
 }
 
 function answerCheck(event){
@@ -225,31 +172,34 @@ function answerCheck(event){
     });
 
     //do I add it in showQuestion ? I mean would need to add another if so that at last question it can first show then change screen
-    const quizDone = (questionIndex/quizQuestions.length)*100;
+    const quizDone = (questionIndex/quizQuestions[quizIndex].questions.length)*100;
     progressDone.style.width = `${quizDone}%`;
 
     setTimeout(()=>{
-        if(questionIndex < quizQuestions.length){
-            answerBtn.forEach(btn => {
-                btn.classList.remove("disabled" , "correct" , "incorrect");
-                btn.style.pointerEvents = 'auto';
-            })
+        if(questionIndex < quizQuestions[quizIndex].questions.length){
+            removeAnswerButton();
             showQuestion();
         }
         else {
             visibleDisplay(quizScreen , resultScreen);
-
             // score = 0;
-            answerBtn.forEach(btn => {
-                btn.classList.remove("disabled" , "correct" , "incorrect");
-                btn.style.pointerEvents = 'auto';
-            })
+            removeAnswerButton();
             congratulatoryMessage();
         }
     } , 500);
 }
 
 function startQuiz(){
+    if(quizIndex < 0 ) {
+        alert("please choose a Quiz");
+        return;
+    }
+
+    totalQuestions.forEach(totalNo => {
+        totalNo.textContent = quizQuestions[quizIndex].questions.length
+        console.log(totalNo.textContent);
+    })
+
     questionIndex = 0;
     visibleDisplay(startScreen , quizScreen)
     //NOTE: can make this a closure ig. i.e return showQuestion. and then use it above..
@@ -258,9 +208,12 @@ function startQuiz(){
 
 function restartQuiz(){
     score = 0; //was going to add in startQuiz    //man should I just make them separate classes no issue of array
+    quizIndex = -1;
     scoreGained.forEach(result => {
         result.textContent = score;
     });
     progressDone.style.width = `0%`;
+    selectQuiz.selectedIndex = 0;
     visibleDisplay(resultScreen , startScreen);
 }
+})

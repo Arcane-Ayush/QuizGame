@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz-Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -17,6 +18,10 @@
             <p>
                 Test your knowledge with these fun questions!
             </p>
+            <label for="Quiz" class="label-quiz">Select your quiz:</label>
+            <select name="Quizz" id="quiz">
+                <option value="default" disabled selected>Choose your Quiz</option>
+            </select> 
             <button id="start-btn">Start Quiz</button> <!-- only one button like this so-->
         </section>
 
@@ -60,6 +65,7 @@
             <button id="restart-btn">Restart Quiz</button>
         </section>
     </main>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+     <script src="script.js"></script>
 </body>
 </html>
