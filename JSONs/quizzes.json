@@ -1,0 +1,457 @@
+[
+    {
+        "quizID" : "general-knowledge",
+        "title": "General Knowledge Quiz",
+        "questions" : [
+            {
+                "Question": "What is the capital of France?",
+                "answers" : [
+                    {"text": "London" , "correct": false},
+                    {"text": "Berlin" , "correct": false},
+                    {"text": "Paris" , "correct": true},
+                    {"text": "Madrid" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which planet is known as the Red Planet?",
+                "answers" : [
+                    {"text": "Venus" , "correct": false},
+                    {"text": "Mars" , "correct": true},
+                    {"text": "Jupiter" , "correct": false},
+                    {"text": "Saturn" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the second largest ocean on the Earth?",
+                "answers" : [
+                    {"text": "Indian Ocean" , "correct": false},
+                    {"text": "Artic Ocean" , "correct": false},
+                    {"text": "Atlantic Ocean" , "correct": true},
+                    {"text": "Pacific Ocean" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which of the following is not a programming language?",
+                "answers" : [
+                    {"text": "Java" , "correct": false},
+                    {"text": "Pearl" , "correct": true},
+                    {"text": "Rust" , "correct": false},
+                    {"text": "Ruby" , "correct": false}
+                ]
+            },
+            {
+                "Question": "What is the chemical symbol for Gold?",
+                "answers" : [
+                    {"text": "Go" , "correct": false},
+                    {"text": "Ag" , "correct": false},
+                    {"text": "Gl" , "correct": false},
+                    {"text": "Au" , "correct": true}
+                ]
+            }
+        ]
+    },
+
+    {
+        "quizID" : "science-belowX",
+        "title": "Science Quiz",
+        "questions" : [
+            {
+                "Question": "How many states of matter are commonly recognized?",
+                "answers" : [
+                    {"text": "One" , "correct": false},
+                    {"text": "Two" , "correct": false},
+                    {"text": "Three" , "correct": false},
+                    {"text": "Four" , "correct": true}
+                ]
+            },
+            {
+                "Question": "What is the SI unit of Charge",
+                "answers" : [
+                    {"text": "Ampere" , "correct": false},
+                    {"text": "Coulomb" , "correct": true},
+                    {"text": "Faraday" , "correct": false},
+                    {"text": "Ohm" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Who discovered and studied the cell for the first time",
+                "answers" : [
+                    {"text": "Issac Newton" , "correct": false},
+                    {"text": "Blaise Pascal" , "correct": false},
+                    {"text": "Robert Strain" , "correct": false},
+                    {"text": "Rober Hooke" , "correct": true}
+                ]
+            },
+            {
+                "Question": "Who invented the Radio",
+                "answers" : [
+                    {"text": "Guglielmo Marconi" , "correct": true},
+                    {"text": "Nikola Tesla" , "correct": false},
+                    {"text": "Albert Einstein" , "correct": false},
+                    {"text": "James Clerk Maxwell" , "correct": false}
+                ]
+            },
+            {
+                "Question": "What is the chemical symbol for Silicon?",
+                "answers" : [
+                    {"text": "S" , "correct": false},
+                    {"text": "Sl" , "correct": false},
+                    {"text": "Si" , "correct": true},
+                    {"text": "Sc" , "correct": false}
+                ]
+            }
+        ]
+    },
+
+    {
+        "quizID" : "science-aboveX",
+        "title": "Science Quiz 2",
+        "questions" : [
+            {
+                "Question": "What is the capital of France?",
+                "answers" : [
+                    {"text": "London" , "correct": false},
+                    {"text": "Berlin" , "correct": false},
+                    {"text": "Paris" , "correct": true},
+                    {"text": "Madrid" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which planet is known as the Red Planet?",
+                "answers" : [
+                    {"text": "Venus" , "correct": false},
+                    {"text": "Mars" , "correct": true},
+                    {"text": "Jupiter" , "correct": false},
+                    {"text": "Saturn" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the second largest ocean on the Earth?",
+                "answers" : [
+                    {"text": "Indian Ocean" , "correct": false},
+                    {"text": "Artic Ocean" , "correct": false},
+                    {"text": "Atlantic Ocean" , "correct": true},
+                    {"text": "Pacific Ocean" , "correct": false}
+                ]
+            },
+            {
+                "Question": "Which of the following is not a programming language?",
+                "answers" : [
+                    {"text": "Java" , "correct": false},
+                    {"text": "Pearl" , "correct": true},
+                    {"text": "Rust" , "correct": false},
+                    {"text": "Ruby" , "correct": false}
+                ]
+            },
+            {
+                "Question": "What is the chemical symbol for Gold?",
+                "answers" : [
+                    {"text": "Go" , "correct": false},
+                    {"text": "Ag" , "correct": false},
+                    {"text": "Gl" , "correct": false},
+                    {"text": "Au" , "correct": true}
+                ]
+            }
+        ]
+    },
+    {
+        "quizID": "history-ncert-india",
+        "title": "Indian History Quiz",
+        "questions": [
+            {
+                "Question": "Who was the first Emperor of the Maurya Dynasty?",
+                "answers": [
+                    {"text": "Ashoka", "correct": false},
+                    {"text": "Chandragupta Maurya", "correct": true},
+                    {"text": "Bindusara", "correct": false},
+                    {"text": "Harsha", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which Mughal emperor built the Taj Mahal?",
+                "answers": [
+                    {"text": "Babur", "correct": false},
+                    {"text": "Shah Jahan", "correct": true},
+                    {"text": "Akbar", "correct": false},
+                    {"text": "Aurangzeb", "correct": false}
+                ]
+            },
+            {
+                "Question": "Where did the Revolt of 1857 start?",
+                "answers": [
+                    {"text": "Merut", "correct": true},
+                    {"text": "Kanpur", "correct": false},
+                    {"text": "Jhansi", "correct": false},
+                    {"text": "Aarah", "correct": false}
+                ]
+            },
+            {
+                "Question": "Who founded the Indian National Congress in 1885?",
+                "answers": [
+                    {"text": "Dadabhai Naoroji", "correct": false},
+                    {"text": "Bal Gangadhar Tilak", "correct": false},
+                    {"text": "Allan Octavian Hume", "correct": true},
+                    {"text": "Gopal Krishna Gokhale", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which Harappan site is located in present-day Gujarat?",
+                "answers": [
+                    {"text": "Mohenjodaro", "correct": false},
+                    {"text": "Harappa", "correct": false},
+                    {"text": "Lothal", "correct": true},
+                    {"text": "Kalibangan", "correct": false}
+                ]
+            }
+        ]
+    },
+    {
+        "quizID": "geography-ncert-common",
+        "title": "Geography Quiz (Common Knowledge)",
+        "questions": [
+            {
+                "Question": "Which is the longest river in the world?",
+                "answers": [
+                    {"text": "Amazon River", "correct": false},
+                    {"text": "Nile River", "correct": true},
+                    {"text": "Yangtze River", "correct": false},
+                    {"text": "Ganga River", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the largest desert in the world?",
+                "answers": [
+                    {"text": "Sahara Desert", "correct": true},
+                    {"text": "Gobi Desert", "correct": false},
+                    {"text": "Thar Desert", "correct": false},
+                    {"text": "Kalahari Desert", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the highest mountain peak in India?",
+                "answers": [
+                    {"text": "Mount Everest", "correct": false},
+                    {"text": "Kangchenjunga", "correct": false},
+                    {"text": "K2 (Godwin-Austen)", "correct": true},
+                    {"text": "Nanda Devi", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the largest plateau in the world?",
+                "answers": [
+                    {"text": "Tibetan Plateau", "correct": true},
+                    {"text": "Deccan Plateau", "correct": false},
+                    {"text": "Patagonian Plateau", "correct": false},
+                    {"text": "Colorado Plateau", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which latitude line divides the Earth into the Northern and Southern Hemispheres?",
+                "answers": [
+                    {"text": "Tropic of Cancer", "correct": false},
+                    {"text": "Prime Meridian", "correct": false},
+                    {"text": "Tropic of Capricorn", "correct": false},
+                    {"text": "Equator", "correct": true}
+                ]
+            }
+        ]
+    },
+    {
+        "quizID": "geography-advanced-class10",
+        "title": "Geography Quiz (Moderate)",
+        "questions": [
+            {
+                "Question": "Which soil is most suitable for cotton cultivation in India?",
+                "answers": [
+                    {"text": "Alluvial Soil", "correct": false},
+                    {"text": "Black Soil", "correct": true},
+                    {"text": "Red Soil", "correct": false},
+                    {"text": "Laterite Soil", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which is the largest saltwater lake in India?",
+                "answers": [
+                    {"text": "Wular Lake", "correct": false},
+                    {"text": "Chilika Lake", "correct": true},
+                    {"text": "Sambhar Lake", "correct": false},
+                    {"text": "Loktak Lake", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which ocean current is responsible for the warming of the Western European coast?",
+                "answers": [
+                    {"text": "Labrador Current", "correct": false},
+                    {"text": "Gulf Stream", "correct": true},
+                    {"text": "Kuroshio Current", "correct": false},
+                    {"text": "Humboldt Current", "correct": false}
+                ]
+            },
+            {
+                "Question": "The Tropic of Cancer passes through how many Indian states?",
+                "answers": [
+                    {"text": "5", "correct": false},
+                    {"text": "6", "correct": false},
+                    {"text": "8", "correct": true},
+                    {"text": "7", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which river is known as the 'Sorrow of Bengal'?",
+                "answers": [
+                    {"text": "Ganga", "correct": false},
+                    {"text": "Damodar", "correct": true},
+                    {"text": "Brahmaputra", "correct": false},
+                    {"text": "Hooghly", "correct": false}
+                ]
+            }
+        ]
+    },
+    {
+        "quizID": "logical-reasoning-basic",
+        "title": "Logical Reasoning Quiz (Basic to Moderate)",
+        "questions": [
+            {
+                "Question": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+                "answers": [
+                    {"text": "18", "correct": false},
+                    {"text": "24", "correct": false},
+                    {"text": "64", "correct": false},
+                    {"text": "32", "correct": true}
+                ]
+            },
+            {
+                "Question": "If in a certain code, CAT is written as DBU, how will DOG be written?",
+                "answers": [
+                    {"text": "EPH", "correct": true},
+                    {"text": "DPI", "correct": false},
+                    {"text": "EPI", "correct": false},
+                    {"text": "EQH", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which word does NOT belong to the group?",
+                "answers": [
+                    {"text": "Apple", "correct": false},
+                    {"text": "Banana", "correct": false},
+                    {"text": "Carrot", "correct": true},
+                    {"text": "Mango", "correct": false}
+                ]
+            },
+            {
+                "Question": "Find the odd one out: 3, 5, 7, 9, 11",
+                "answers": [
+                    {"text": "3", "correct": false},
+                    {"text": "7", "correct": false},
+                    {"text": "9", "correct": true},
+                    {"text": "11", "correct": false}
+                ]
+            },
+            {
+                "Question": "If some pens are pencils, all pencils are erasers, which of the following is true?",
+                "answers": [
+                    {"text": "All pens are erasers", "correct": false},
+                    {"text": "Some pens are erasers", "correct": true},
+                    {"text": "No pen is an eraser", "correct": false},
+                    {"text": "All pens are pencils", "correct": false}
+                ]
+            }
+        ]
+    },
+    {
+        "quizID": "history-modern-medieval-world",
+        "title": "History Quiz(10 Ques)",
+        "questions": [
+            {
+                "Question": "Who was the founder of the Mughal Empire in India?",
+                "answers": [
+                    {"text": "Babur", "correct": true},
+                    {"text": "Akbar", "correct": false},
+                    {"text": "Sher Shah Suri", "correct": false},
+                    {"text": "Humayun", "correct": false}
+                ]
+            },
+            {
+                "Question": "In which year did the French Revolution begin?",
+                "answers": [
+                    {"text": "1776", "correct": false},
+                    {"text": "1789", "correct": true},
+                    {"text": "1804", "correct": false},
+                    {"text": "1815", "correct": false}
+                ]
+            },
+            {
+                "Question": "Who led the Salt March in India against British rule?",
+                "answers": [
+                    {"text": "Jawaharlal Nehru", "correct": false},
+                    {"text": "Subhas Chandra Bose", "correct": false},
+                    {"text": "Mahatma Gandhi", "correct": true},
+                    {"text": "Bal Gangadhar Tilak", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which empire is associated with the construction of the Qutub Minar?",
+                "answers": [
+                    {"text": "Maurya Empire", "correct": false},
+                    {"text": "Gupta Empire", "correct": false},
+                    {"text": "Delhi Sultanate", "correct": true},
+                    {"text": "Mughal Empire", "correct": false}
+                ]
+            },
+            {
+                "Question": "Who wrote the book 'The Origin of Species' introducing the theory of evolution?",
+                "answers": [
+                    {"text": "Isaac Newton", "correct": false},
+                    {"text": "Charles Darwin", "correct": true},
+                    {"text": "Karl Marx", "correct": false},
+                    {"text": "Galileo Galilei", "correct": false}
+                ]
+            },
+            {
+                "Question": "Who was the first President of independent India?",
+                "answers": [
+                    {"text": "Mahatma Gandhi", "correct": false},
+                    {"text": "Dr. Rajendra Prasad", "correct": true},
+                    {"text": "Sardar Vallabhbhai Patel", "correct": false},
+                    {"text": "Subhas Chandra Bose", "correct": false}
+                ]
+            },
+            {
+                "Question": "Which movement in Germany led to the rise of Adolf Hitler?",
+                "answers": [
+                    {"text": "Industrial Revolution", "correct": false},
+                    {"text": "Renaissance", "correct": false},
+                    {"text": "Nazi Movement", "correct": true},
+                    {"text": "French Revolution", "correct": false}
+                ]
+            },
+            {
+                "Question": "The Battle of Plassey (1757) was fought between the British East India Company and which ruler?",
+                "answers": [
+                    {"text": "Tipu Sultan", "correct": false},
+                    {"text": "Siraj-ud-Daulah", "correct": true},
+                    {"text": "Shivaji", "correct": false},
+                    {"text": "Bahadur Shah Zafar", "correct": false}
+                ]
+            },
+            {
+                "Question": "Who was known as the 'Iron Man of India'?",
+                "answers": [
+                    {"text": "Jawaharlal Nehru", "correct": false},
+                    {"text": "Sardar Vallabhbhai Patel", "correct": true},
+                    {"text": "Bhagat Singh", "correct": false},
+                    {"text": "Subhas Chandra Bose", "correct": false}
+                ]
+            },
+            {
+                "Question": "The Renaissance movement originated in which country?",
+                "answers": [
+                    {"text": "Germany", "correct": false},
+                    {"text": "France", "correct": false},
+                    {"text": "Italy", "correct": true},
+                    {"text": "England", "correct": false}
+                ]
+            }
+        ]
+    }
+]

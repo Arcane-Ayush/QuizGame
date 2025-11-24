@@ -1,4 +1,4 @@
-fetch('quizzes.json')
+fetch('./JSONs/quizzes.json')
 .then((res) => {
     return res.json()
 })
@@ -36,7 +36,7 @@ function loadAudioSafe(path){
     return audio;
 }
 const correctAuido = loadAudioSafe("success.mp3");
-correctAuido.volume = 0.1;
+correctAuido.volume = 0.3;
 const wrongAudio = loadAudioSafe("wrong.mp3");
 wrongAudio.volume = 1;
 
@@ -75,7 +75,6 @@ selectQuiz.addEventListener('change' , (e) => {
     console.log(quizIndex);
 })
 
-//QUIZ VAR
 let questionIndex = 0;
 let score = 0;
 
