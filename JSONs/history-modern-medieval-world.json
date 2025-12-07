@@ -1,0 +1,216 @@
+{
+    "quizID": "history-modern-medieval-world",
+    "title": "History Quiz(10 Ques)",
+    "questions": [
+        {
+            "Question": "Who was the founder of the Mughal Empire in India?",
+            "answers": [
+                {
+                    "text": "Babur",
+                    "correct": true
+                },
+                {
+                    "text": "Akbar",
+                    "correct": false
+                },
+                {
+                    "text": "Sher Shah Suri",
+                    "correct": false
+                },
+                {
+                    "text": "Humayun",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "In which year did the French Revolution begin?",
+            "answers": [
+                {
+                    "text": "1776",
+                    "correct": false
+                },
+                {
+                    "text": "1789",
+                    "correct": true
+                },
+                {
+                    "text": "1804",
+                    "correct": false
+                },
+                {
+                    "text": "1815",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who led the Salt March in India against British rule?",
+            "answers": [
+                {
+                    "text": "Jawaharlal Nehru",
+                    "correct": false
+                },
+                {
+                    "text": "Subhas Chandra Bose",
+                    "correct": false
+                },
+                {
+                    "text": "Mahatma Gandhi",
+                    "correct": true
+                },
+                {
+                    "text": "Bal Gangadhar Tilak",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which empire is associated with the construction of the Qutub Minar?",
+            "answers": [
+                {
+                    "text": "Maurya Empire",
+                    "correct": false
+                },
+                {
+                    "text": "Gupta Empire",
+                    "correct": false
+                },
+                {
+                    "text": "Delhi Sultanate",
+                    "correct": true
+                },
+                {
+                    "text": "Mughal Empire",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who wrote the book 'The Origin of Species' introducing the theory of evolution?",
+            "answers": [
+                {
+                    "text": "Isaac Newton",
+                    "correct": false
+                },
+                {
+                    "text": "Charles Darwin",
+                    "correct": true
+                },
+                {
+                    "text": "Karl Marx",
+                    "correct": false
+                },
+                {
+                    "text": "Galileo Galilei",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who was the first President of independent India?",
+            "answers": [
+                {
+                    "text": "Mahatma Gandhi",
+                    "correct": false
+                },
+                {
+                    "text": "Dr. Rajendra Prasad",
+                    "correct": true
+                },
+                {
+                    "text": "Sardar Vallabhbhai Patel",
+                    "correct": false
+                },
+                {
+                    "text": "Subhas Chandra Bose",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which movement in Germany led to the rise of Adolf Hitler?",
+            "answers": [
+                {
+                    "text": "Industrial Revolution",
+                    "correct": false
+                },
+                {
+                    "text": "Renaissance",
+                    "correct": false
+                },
+                {
+                    "text": "Nazi Movement",
+                    "correct": true
+                },
+                {
+                    "text": "French Revolution",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "The Battle of Plassey (1757) was fought between the British East India Company and which ruler?",
+            "answers": [
+                {
+                    "text": "Tipu Sultan",
+                    "correct": false
+                },
+                {
+                    "text": "Siraj-ud-Daulah",
+                    "correct": true
+                },
+                {
+                    "text": "Shivaji",
+                    "correct": false
+                },
+                {
+                    "text": "Bahadur Shah Zafar",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who was known as the 'Iron Man of India'?",
+            "answers": [
+                {
+                    "text": "Jawaharlal Nehru",
+                    "correct": false
+                },
+                {
+                    "text": "Sardar Vallabhbhai Patel",
+                    "correct": true
+                },
+                {
+                    "text": "Bhagat Singh",
+                    "correct": false
+                },
+                {
+                    "text": "Subhas Chandra Bose",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "The Renaissance movement originated in which country?",
+            "answers": [
+                {
+                    "text": "Germany",
+                    "correct": false
+                },
+                {
+                    "text": "France",
+                    "correct": false
+                },
+                {
+                    "text": "Italy",
+                    "correct": true
+                },
+                {
+                    "text": "England",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

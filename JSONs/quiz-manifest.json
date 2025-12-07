@@ -1,0 +1,42 @@
+[
+    {
+        "id": "general-knowledge",
+        "title": "General Knowledge Quiz",
+        "path": "JSONs/general-knowledge.json"
+    },
+    {
+        "id": "science-belowX",
+        "title": "Science Quiz",
+        "path": "JSONs/science-belowX.json"
+    },
+    {
+        "id": "science-aboveX",
+        "title": "Science Quiz 2",
+        "path": "JSONs/science-aboveX.json"
+    },
+    {
+        "id": "history-ncert-india",
+        "title": "Indian History Quiz",
+        "path": "JSONs/history-ncert-india.json"
+    },
+    {
+        "id": "geography-ncert-common",
+        "title": "Geography Quiz (Common Knowledge)",
+        "path": "JSONs/geography-ncert-common.json"
+    },
+    {
+        "id": "geography-advanced-class10",
+        "title": "Geography Quiz (Moderate)",
+        "path": "JSONs/geography-advanced-class10.json"
+    },
+    {
+        "id": "logical-reasoning-basic",
+        "title": "Logical Reasoning Quiz (Basic to Moderate)",
+        "path": "JSONs/logical-reasoning-basic.json"
+    },
+    {
+        "id": "history-modern-medieval-world",
+        "title": "History Quiz(10 Ques)",
+        "path": "JSONs/history-modern-medieval-world.json"
+    }
+]

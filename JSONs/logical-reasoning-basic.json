@@ -1,0 +1,111 @@
+{
+    "quizID": "logical-reasoning-basic",
+    "title": "Logical Reasoning Quiz (Basic to Moderate)",
+    "questions": [
+        {
+            "Question": "What comes next in the sequence: 2, 4, 8, 16, ___?",
+            "answers": [
+                {
+                    "text": "18",
+                    "correct": false
+                },
+                {
+                    "text": "24",
+                    "correct": false
+                },
+                {
+                    "text": "64",
+                    "correct": false
+                },
+                {
+                    "text": "32",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "Question": "If in a certain code, CAT is written as DBU, how will DOG be written?",
+            "answers": [
+                {
+                    "text": "EPH",
+                    "correct": true
+                },
+                {
+                    "text": "DPI",
+                    "correct": false
+                },
+                {
+                    "text": "EPI",
+                    "correct": false
+                },
+                {
+                    "text": "EQH",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which word does NOT belong to the group?",
+            "answers": [
+                {
+                    "text": "Apple",
+                    "correct": false
+                },
+                {
+                    "text": "Banana",
+                    "correct": false
+                },
+                {
+                    "text": "Carrot",
+                    "correct": true
+                },
+                {
+                    "text": "Mango",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Find the odd one out: 3, 5, 7, 9, 11",
+            "answers": [
+                {
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "text": "7",
+                    "correct": false
+                },
+                {
+                    "text": "9",
+                    "correct": true
+                },
+                {
+                    "text": "11",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "If some pens are pencils, all pencils are erasers, which of the following is true?",
+            "answers": [
+                {
+                    "text": "All pens are erasers",
+                    "correct": false
+                },
+                {
+                    "text": "Some pens are erasers",
+                    "correct": true
+                },
+                {
+                    "text": "No pen is an eraser",
+                    "correct": false
+                },
+                {
+                    "text": "All pens are pencils",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "quizID": "geography-ncert-common",
+    "title": "Geography Quiz (Common Knowledge)",
+    "questions": [
+        {
+            "Question": "Which is the longest river in the world?",
+            "answers": [
+                {
+                    "text": "Amazon River",
+                    "correct": false
+                },
+                {
+                    "text": "Nile River",
+                    "correct": true
+                },
+                {
+                    "text": "Yangtze River",
+                    "correct": false
+                },
+                {
+                    "text": "Ganga River",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which is the largest desert in the world?",
+            "answers": [
+                {
+                    "text": "Sahara Desert",
+                    "correct": true
+                },
+                {
+                    "text": "Gobi Desert",
+                    "correct": false
+                },
+                {
+                    "text": "Thar Desert",
+                    "correct": false
+                },
+                {
+                    "text": "Kalahari Desert",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which is the highest mountain peak in India?",
+            "answers": [
+                {
+                    "text": "Mount Everest",
+                    "correct": false
+                },
+                {
+                    "text": "Kangchenjunga",
+                    "correct": false
+                },
+                {
+                    "text": "K2 (Godwin-Austen)",
+                    "correct": true
+                },
+                {
+                    "text": "Nanda Devi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which is the largest plateau in the world?",
+            "answers": [
+                {
+                    "text": "Tibetan Plateau",
+                    "correct": true
+                },
+                {
+                    "text": "Deccan Plateau",
+                    "correct": false
+                },
+                {
+                    "text": "Patagonian Plateau",
+                    "correct": false
+                },
+                {
+                    "text": "Colorado Plateau",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which latitude line divides the Earth into the Northern and Southern Hemispheres?",
+            "answers": [
+                {
+                    "text": "Tropic of Cancer",
+                    "correct": false
+                },
+                {
+                    "text": "Prime Meridian",
+                    "correct": false
+                },
+                {
+                    "text": "Tropic of Capricorn",
+                    "correct": false
+                },
+                {
+                    "text": "Equator",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

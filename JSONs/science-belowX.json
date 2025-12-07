@@ -1,0 +1,111 @@
+{
+    "quizID": "science-belowX",
+    "title": "Science Quiz",
+    "questions": [
+        {
+            "Question": "How many states of matter are commonly recognized?",
+            "answers": [
+                {
+                    "text": "One",
+                    "correct": false
+                },
+                {
+                    "text": "Two",
+                    "correct": false
+                },
+                {
+                    "text": "Three",
+                    "correct": false
+                },
+                {
+                    "text": "Four",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "Question": "What is the SI unit of Charge",
+            "answers": [
+                {
+                    "text": "Ampere",
+                    "correct": false
+                },
+                {
+                    "text": "Coulomb",
+                    "correct": true
+                },
+                {
+                    "text": "Faraday",
+                    "correct": false
+                },
+                {
+                    "text": "Ohm",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who discovered and studied the cell for the first time",
+            "answers": [
+                {
+                    "text": "Issac Newton",
+                    "correct": false
+                },
+                {
+                    "text": "Blaise Pascal",
+                    "correct": false
+                },
+                {
+                    "text": "Robert Strain",
+                    "correct": false
+                },
+                {
+                    "text": "Rober Hooke",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "Question": "Who invented the Radio",
+            "answers": [
+                {
+                    "text": "Guglielmo Marconi",
+                    "correct": true
+                },
+                {
+                    "text": "Nikola Tesla",
+                    "correct": false
+                },
+                {
+                    "text": "Albert Einstein",
+                    "correct": false
+                },
+                {
+                    "text": "James Clerk Maxwell",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "What is the chemical symbol for Silicon?",
+            "answers": [
+                {
+                    "text": "S",
+                    "correct": false
+                },
+                {
+                    "text": "Sl",
+                    "correct": false
+                },
+                {
+                    "text": "Si",
+                    "correct": true
+                },
+                {
+                    "text": "Sc",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

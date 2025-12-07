@@ -1,0 +1,111 @@
+{
+    "quizID": "history-ncert-india",
+    "title": "Indian History Quiz",
+    "questions": [
+        {
+            "Question": "Who was the first Emperor of the Maurya Dynasty?",
+            "answers": [
+                {
+                    "text": "Ashoka",
+                    "correct": false
+                },
+                {
+                    "text": "Chandragupta Maurya",
+                    "correct": true
+                },
+                {
+                    "text": "Bindusara",
+                    "correct": false
+                },
+                {
+                    "text": "Harsha",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which Mughal emperor built the Taj Mahal?",
+            "answers": [
+                {
+                    "text": "Babur",
+                    "correct": false
+                },
+                {
+                    "text": "Shah Jahan",
+                    "correct": true
+                },
+                {
+                    "text": "Akbar",
+                    "correct": false
+                },
+                {
+                    "text": "Aurangzeb",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Where did the Revolt of 1857 start?",
+            "answers": [
+                {
+                    "text": "Merut",
+                    "correct": true
+                },
+                {
+                    "text": "Kanpur",
+                    "correct": false
+                },
+                {
+                    "text": "Jhansi",
+                    "correct": false
+                },
+                {
+                    "text": "Aarah",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Who founded the Indian National Congress in 1885?",
+            "answers": [
+                {
+                    "text": "Dadabhai Naoroji",
+                    "correct": false
+                },
+                {
+                    "text": "Bal Gangadhar Tilak",
+                    "correct": false
+                },
+                {
+                    "text": "Allan Octavian Hume",
+                    "correct": true
+                },
+                {
+                    "text": "Gopal Krishna Gokhale",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which Harappan site is located in present-day Gujarat?",
+            "answers": [
+                {
+                    "text": "Mohenjodaro",
+                    "correct": false
+                },
+                {
+                    "text": "Harappa",
+                    "correct": false
+                },
+                {
+                    "text": "Lothal",
+                    "correct": true
+                },
+                {
+                    "text": "Kalibangan",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

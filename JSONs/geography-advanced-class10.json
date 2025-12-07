@@ -1,0 +1,111 @@
+{
+    "quizID": "geography-advanced-class10",
+    "title": "Geography Quiz (Moderate)",
+    "questions": [
+        {
+            "Question": "Which soil is most suitable for cotton cultivation in India?",
+            "answers": [
+                {
+                    "text": "Alluvial Soil",
+                    "correct": false
+                },
+                {
+                    "text": "Black Soil",
+                    "correct": true
+                },
+                {
+                    "text": "Red Soil",
+                    "correct": false
+                },
+                {
+                    "text": "Laterite Soil",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which is the largest saltwater lake in India?",
+            "answers": [
+                {
+                    "text": "Wular Lake",
+                    "correct": false
+                },
+                {
+                    "text": "Chilika Lake",
+                    "correct": true
+                },
+                {
+                    "text": "Sambhar Lake",
+                    "correct": false
+                },
+                {
+                    "text": "Loktak Lake",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which ocean current is responsible for the warming of the Western European coast?",
+            "answers": [
+                {
+                    "text": "Labrador Current",
+                    "correct": false
+                },
+                {
+                    "text": "Gulf Stream",
+                    "correct": true
+                },
+                {
+                    "text": "Kuroshio Current",
+                    "correct": false
+                },
+                {
+                    "text": "Humboldt Current",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "The Tropic of Cancer passes through how many Indian states?",
+            "answers": [
+                {
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "text": "6",
+                    "correct": false
+                },
+                {
+                    "text": "8",
+                    "correct": true
+                },
+                {
+                    "text": "7",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which river is known as the 'Sorrow of Bengal'?",
+            "answers": [
+                {
+                    "text": "Ganga",
+                    "correct": false
+                },
+                {
+                    "text": "Damodar",
+                    "correct": true
+                },
+                {
+                    "text": "Brahmaputra",
+                    "correct": false
+                },
+                {
+                    "text": "Hooghly",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

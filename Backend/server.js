@@ -6,11 +6,14 @@ const app = express();
 const path = require('path');
 const PORT = 3000;
 
-const FRONTEND_PATH = path.join(__dirname , '..' , 'Frontend');
+const FRONTEND_PATH = path.join(__dirname, '..', 'Frontend');
 app.use(express.static(FRONTEND_PATH)); //__dirname is inbuilt node module 
 
-app.get('/' , (req , res) => {
-    res.sendFile(path.join(__dirname , 'Frontend' , 'index.html'));
+const JSONS_PATH = path.join(__dirname, '..', 'JSONs');
+app.use('/JSONs', express.static(JSONS_PATH));
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'Frontend', 'index.html'));
 })
 
 app.listen(PORT, () => {

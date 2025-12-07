@@ -1,0 +1,111 @@
+{
+    "quizID": "science-aboveX",
+    "title": "Science Quiz 2",
+    "questions": [
+        {
+            "Question": "What is the capital of France?",
+            "answers": [
+                {
+                    "text": "London",
+                    "correct": false
+                },
+                {
+                    "text": "Berlin",
+                    "correct": false
+                },
+                {
+                    "text": "Paris",
+                    "correct": true
+                },
+                {
+                    "text": "Madrid",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which planet is known as the Red Planet?",
+            "answers": [
+                {
+                    "text": "Venus",
+                    "correct": false
+                },
+                {
+                    "text": "Mars",
+                    "correct": true
+                },
+                {
+                    "text": "Jupiter",
+                    "correct": false
+                },
+                {
+                    "text": "Saturn",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which is the second largest ocean on the Earth?",
+            "answers": [
+                {
+                    "text": "Indian Ocean",
+                    "correct": false
+                },
+                {
+                    "text": "Artic Ocean",
+                    "correct": false
+                },
+                {
+                    "text": "Atlantic Ocean",
+                    "correct": true
+                },
+                {
+                    "text": "Pacific Ocean",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "Which of the following is not a programming language?",
+            "answers": [
+                {
+                    "text": "Java",
+                    "correct": false
+                },
+                {
+                    "text": "Pearl",
+                    "correct": true
+                },
+                {
+                    "text": "Rust",
+                    "correct": false
+                },
+                {
+                    "text": "Ruby",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "Question": "What is the chemical symbol for Gold?",
+            "answers": [
+                {
+                    "text": "Go",
+                    "correct": false
+                },
+                {
+                    "text": "Ag",
+                    "correct": false
+                },
+                {
+                    "text": "Gl",
+                    "correct": false
+                },
+                {
+                    "text": "Au",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}
