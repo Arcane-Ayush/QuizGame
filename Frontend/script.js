@@ -1,4 +1,8 @@
-fetch('/JSONs/quiz-manifest.json')
+// bucket URL (e.g., 'https://storage.googleapis.com/YOUR_BUCKET_NAME')
+//empty for the local host as no need to fetch anywhere else.
+const QUIZ_BASE_URL = '';
+
+fetch(`${QUIZ_BASE_URL}/JSONs/quiz-manifest.json`)
     .then((res) => {
         return res.json()
     })
@@ -169,7 +173,7 @@ fetch('/JSONs/quiz-manifest.json')
             }
 
             // Fetch the selected quiz data
-            fetch(`/${selectedPath}`) // Assuming path in manifest is relative to root, e.g. "JSONs/file.json"
+            fetch(`${QUIZ_BASE_URL}/${selectedPath}`) // Assuming path in manifest is relative to root, e.g. "JSONs/file.json"
                 .then(res => res.json())
                 .then(data => {
                     currentQuizData = data;
